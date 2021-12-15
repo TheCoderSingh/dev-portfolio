@@ -1,10 +1,12 @@
 import { Box, Heading } from "@chakra-ui/react";
+
 import "./App.css";
+import Menu from "./components/Menu";
 
 function App() {
 	return (
 		<Box className="App">
-			<Heading>Hello, world!</Heading>
+			<Menu />
 		</Box>
 	);
 }
