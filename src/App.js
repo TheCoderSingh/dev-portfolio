@@ -1,10 +1,11 @@
+import { Box, Heading } from "@chakra-ui/react";
 import "./App.css";
 
 function App() {
 	return (
-		<div className="App">
-			<h1>Hello, world!</h1>
-		</div>
+		<Box className="App">
+			<Heading>Hello, world!</Heading>
+		</Box>
 	);
 }
 
