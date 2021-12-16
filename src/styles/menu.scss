@@ -1,14 +1,16 @@
 @import "colors.scss";
 
 .menu {
-	width: 30px;
-	margin-left: auto;
+	position: fixed;
+	top: 0;
 	padding-top: 30px;
-	display: block;
+	right: 30px;
 
 	hr {
 		margin-bottom: 7px;
 		border-top-width: 3px;
 		border-color: $primary;
+		width: 30px;
+		margin-left: auto;
 	}
 }

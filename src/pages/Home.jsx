@@ -15,7 +15,6 @@ const Home = () => {
 	return (
 		<Box className="intro">
 			<Box className="inner">
-				<Menu />
 				<Box className="intro-title">
 					<Heading as="h2">Hi!</Heading>
 					<Heading as="h2">I'm Jaskaran.</Heading>
