@@ -9,7 +9,6 @@ import twitter from "../assets/twitter.png";
 import github from "../assets/github.png";
 import linkedin from "../assets/linkedin.png";
 import scroll from "../assets/scroll.png";
-import Menu from "../components/Menu";
 
 const Home = () => {
 	return (
