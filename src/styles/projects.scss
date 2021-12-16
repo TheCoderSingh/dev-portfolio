@@ -1,0 +1,58 @@
+@import "colors.scss";
+
+.projects {
+	margin: 100px 0;
+	min-height: calc(100% - 80px);
+
+	.project-image {
+		margin-top: 15px;
+		height: 200px;
+	}
+
+	.projects-title {
+		font-family: "Source Sans 3", sans-serif;
+		color: $primary;
+		font-weight: lighter;
+		font-size: 2em;
+		line-height: 1em;
+	}
+
+	.project-title {
+		font-family: "Source Sans 3", sans-serif;
+		font-size: 1.1em;
+		margin-top: 10px;
+		color: $primary;
+	}
+
+	.project-description {
+		font-family: "Source Sans 3", sans-serif;
+		font-size: 0.8em;
+		margin-top: 5px;
+	}
+
+	.project-technologies {
+		margin: 15px 0;
+
+		p {
+			font-family: "Source Sans 3", sans-serif;
+			font-size: 0.7em;
+			padding: 3px;
+			background: #c1c1c1;
+			border-radius: 12px;
+			min-width: 45px;
+			text-align: center;
+			margin-right: 5px;
+		}
+	}
+
+	button {
+		font-family: "Source Sans 3", sans-serif;
+		font-size: 0.8em;
+		font-weight: lighter;
+		width: 65px;
+		height: 30px;
+		background: $primary;
+		color: #fff;
+		margin-right: 10px;
+	}
+}
