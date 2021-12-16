@@ -1,0 +1,21 @@
+@import "colors.scss";
+
+.skills {
+	padding-top: 80px;
+
+	.skills-title {
+		font-family: "Source Sans 3", sans-serif;
+		color: $primary;
+		font-weight: lighter;
+		font-size: 2em;
+		margin-bottom: 20px;
+	}
+
+	img {
+		max-height: 80px;
+	}
+
+	.skills-list {
+		align-items: center;
+	}
+}
