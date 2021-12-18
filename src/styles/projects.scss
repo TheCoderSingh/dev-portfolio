@@ -5,7 +5,7 @@
 	min-height: calc(100% - 80px);
 
 	.project-image {
-		margin-top: 15px;
+		margin-top: 25px;
 		height: 200px;
 	}
 
@@ -26,7 +26,7 @@
 
 	.project-description {
 		font-family: "Source Sans 3", sans-serif;
-		font-size: 0.8em;
+		font-size: 1em;
 		margin-top: 5px;
 	}
 
@@ -35,13 +35,14 @@
 
 		p {
 			font-family: "Source Sans 3", sans-serif;
-			font-size: 0.7em;
+			font-size: 0.8em;
 			padding: 3px;
 			background: #c1c1c1;
 			border-radius: 12px;
-			min-width: 45px;
+			min-width: 55px;
 			text-align: center;
 			margin-right: 5px;
+			margin-top: 5px;
 		}
 	}
 

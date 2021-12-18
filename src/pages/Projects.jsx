@@ -5,6 +5,8 @@ import alunos from "../assets/alunos.png";
 import aquashot from "../assets/aquashot.png";
 import aura from "../assets/aura.png";
 import crypto from "../assets/crypto.png";
+import realEstate from "../assets/real-estate.png";
+import hotels from "../assets/hotels.png";
 
 const Projects = () => {
 	return (
@@ -23,7 +25,7 @@ const Projects = () => {
 						companies in Canada to manage homestay-related
 						activities and faciliting communication.
 					</Text>
-					<Flex className="project-technologies">
+					<Flex className="project-technologies" flexWrap={"wrap"}>
 						<Text>HTML5</Text>
 						<Text>SCSS</Text>
 						<Text>Vue.js</Text>
@@ -91,6 +93,53 @@ const Projects = () => {
 						<Text>SCSS</Text>
 						<Text>ReactJS</Text>
 						<Text>MySQL</Text>
+					</Flex>
+					<Flex>
+						<Button>View Live</Button>
+						<Button>GitHub</Button>
+					</Flex>
+				</Box>
+				<Box className="project">
+					<Image
+						src={realEstate}
+						alt="real estate"
+						className="project-image"
+					/>
+					<Heading className="project-title">Real Estate</Heading>
+					<Text className="project-description">
+						Find properties available for sale and for rent with
+						filters like price, property type and much more...
+					</Text>
+					<Flex className="project-technologies">
+						<Text>HTML5</Text>
+						<Text>CSS3</Text>
+						<Text>ReactJS</Text>
+						<Text>NextJS</Text>
+						<Text>Chakra UI</Text>
+					</Flex>
+					<Flex>
+						<Button>View Live</Button>
+						<Button>GitHub</Button>
+					</Flex>
+				</Box>
+				<Box className="project">
+					<Image
+						src={hotels}
+						alt="hotels"
+						className="project-image"
+					/>
+					<Heading className="project-title">Hotels</Heading>
+					<Text className="project-description">
+						Get hotels available near you with all the information
+						including amenities, check-in &amp; check-out times,
+						room photos and guest rating.
+					</Text>
+					<Flex className="project-technologies">
+						<Text>HTML5</Text>
+						<Text>CSS3</Text>
+						<Text>ReactJS</Text>
+						<Text>NextJS</Text>
+						<Text>Chakra UI</Text>
 					</Flex>
 					<Flex>
 						<Button>View Live</Button>
