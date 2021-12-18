@@ -24,9 +24,13 @@ const Home = () => {
 				</Box>
 				<Box className="intro-description">
 					<Text>
-						Frontend developer with a vision to revolutionize the
-						world through code. Frontend developer with a vision to
-						revolutionize the world through code.
+						I'm a <span>software developer</span>, based in
+						Vancouver, BC with a vision to revolutionize the world
+						through code.
+					</Text>
+					<Text>
+						Currently looking for opportunities. View my resume
+						<Link href="#"> here</Link>.
 					</Text>
 				</Box>
 				<Box className="intro-sections">
@@ -44,16 +48,20 @@ const Home = () => {
 					</Flex>
 					<hr />
 					<Flex className="intro-section">
-						<Box className="intro-section-image">
-							<Image src={projects} alt="projects" />
-						</Box>
-						<Box className="intro-section-content">
+						<Box
+							className="intro-section-content"
+							textAlign={"right"}
+							mr={2}
+						>
 							<Heading>Wanna skip to the good part?</Heading>
 							<Link href="#">View my projects</Link>
 						</Box>
+						<Box className="intro-section-image">
+							<Image src={projects} alt="projects" />
+						</Box>
 					</Flex>
 				</Box>
-				<Flex className="intro-social">
+				{/* <Flex className="intro-social">
 					<Link href="#">
 						<Image src={facebook} alt="facebook logo" />
 					</Link>
@@ -69,7 +77,7 @@ const Home = () => {
 					<Link href="#">
 						<Image src={linkedin} alt="linkedin logo" />
 					</Link>
-				</Flex>
+				</Flex> */}
 				<Box className="intro-scroll">
 					<Image src={scroll} alt="scroll down arrow" />
 				</Box>
