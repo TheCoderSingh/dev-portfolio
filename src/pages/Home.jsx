@@ -30,7 +30,15 @@ const Home = () => {
 					</Text>
 					<Text>
 						Currently looking for opportunities. View my resume
-						<Link href="#"> here</Link>.
+						<a
+							href="https://drive.google.com/file/d/1XpmxqBWO8oeApiSrrJnHCb9fDzx35ElL/view?usp=sharing"
+							target={"_blank"}
+							rel="noopener rorefferer"
+						>
+							{" "}
+							here
+						</a>
+						.
 					</Text>
 				</Box>
 				<Box className="intro-sections">
