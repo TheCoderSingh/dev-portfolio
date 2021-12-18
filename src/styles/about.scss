@@ -1,8 +1,9 @@
 @import "colors.scss";
 
 .about {
-	background: $secondary;
+	// background: $secondary;
 	padding-bottom: 30px;
+	min-height: 100vh;
 
 	.about-title {
 		font-family: "Source Sans 3", sans-serif;
@@ -14,7 +15,7 @@
 	}
 
 	.about-description {
-		color: #fff;
+		// color: #fff;
 		font-family: "Source Sans 3", sans-serif;
 	}
 
