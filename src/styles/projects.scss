@@ -46,7 +46,7 @@
 		}
 	}
 
-	button {
+	a {
 		font-family: "Source Sans 3", sans-serif;
 		font-size: 0.8em;
 		font-weight: lighter;
@@ -55,5 +55,8 @@
 		background: $primary;
 		color: #fff;
 		margin-right: 10px;
+		padding: 6px;
+		border-radius: 4px;
+		text-align: center;
 	}
 }

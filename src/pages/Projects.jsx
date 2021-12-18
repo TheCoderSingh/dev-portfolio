@@ -1,4 +1,12 @@
-import { Box, Button, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import {
+	Box,
+	Button,
+	Flex,
+	Heading,
+	Image,
+	Link,
+	Text,
+} from "@chakra-ui/react";
 
 import "../styles/projects.scss";
 import alunos from "../assets/alunos.png";
@@ -34,8 +42,20 @@ const Projects = () => {
 						<Text>Quasar</Text>
 					</Flex>
 					<Flex>
-						<Button>View Live</Button>
-						<Button>GitHub</Button>
+						<a
+							href="https://alunos.thecodersingh.com"
+							target={"_blank"}
+							rel="noopener noreferrer"
+						>
+							View Live
+						</a>
+						<a
+							href="https://github.com/TheCoderSingh/alunos-website"
+							target={"_blank"}
+							rel="noopener noreferrer"
+						>
+							GitHub
+						</a>
 					</Flex>
 				</Box>
 				<Box className="project">
@@ -55,8 +75,20 @@ const Projects = () => {
 						<Text>Javascript</Text>
 					</Flex>
 					<Flex>
-						<Button>View Live</Button>
-						<Button>GitHub</Button>
+						<a
+							href="https://aquashot.thecodersingh.com"
+							target={"_blank"}
+							rel="noopener noreferrer"
+						>
+							View Live
+						</a>
+						<a
+							href="https://github.com/TheCoderSingh/aquashot"
+							target={"_blank"}
+							rel="noopener noreferrer"
+						>
+							GitHub
+						</a>
 					</Flex>
 				</Box>
 				<Box className="project">
@@ -75,8 +107,20 @@ const Projects = () => {
 						<Text>MySQL</Text>
 					</Flex>
 					<Flex>
-						<Button>View Live</Button>
-						<Button>GitHub</Button>
+						<a
+							href="https://aura.thecodersingh.com"
+							target={"_blank"}
+							rel="noopener noreferrer"
+						>
+							View Live
+						</a>
+						<a
+							href="https://github.com/TheCoderSingh/aura"
+							target={"_blank"}
+							rel="noopener noreferrer"
+						>
+							GitHub
+						</a>
 					</Flex>
 				</Box>
 				<Box className="project">
@@ -95,8 +139,20 @@ const Projects = () => {
 						<Text>MySQL</Text>
 					</Flex>
 					<Flex>
-						<Button>View Live</Button>
-						<Button>GitHub</Button>
+						<a
+							href="https://crypto.thecodersingh.com"
+							target={"_blank"}
+							rel="noopener noreferrer"
+						>
+							View Live
+						</a>
+						<a
+							href="https://github.com/TheCoderSingh/crypto-tracker"
+							target={"_blank"}
+							rel="noopener noreferrer"
+						>
+							GitHub
+						</a>
 					</Flex>
 				</Box>
 				<Box className="project">
@@ -118,8 +174,20 @@ const Projects = () => {
 						<Text>Chakra UI</Text>
 					</Flex>
 					<Flex>
-						<Button>View Live</Button>
-						<Button>GitHub</Button>
+						<a
+							href="https://real-estate-tawny.vercel.app/"
+							target={"_blank"}
+							rel="noopener noreferrer"
+						>
+							View Live
+						</a>
+						<a
+							href="https://github.com/TheCoderSingh/real-estate"
+							target={"_blank"}
+							rel="noopener noreferrer"
+						>
+							GitHub
+						</a>
 					</Flex>
 				</Box>
 				<Box className="project">
@@ -142,8 +210,20 @@ const Projects = () => {
 						<Text>Chakra UI</Text>
 					</Flex>
 					<Flex>
-						<Button>View Live</Button>
-						<Button>GitHub</Button>
+						<a
+							href="https://hotels-tau.vercel.app/"
+							target={"_blank"}
+							rel="noopener noreferrer"
+						>
+							View Live
+						</a>
+						<a
+							href="https://github.com/TheCoderSingh/hotels"
+							target={"_blank"}
+							rel="noopener noreferrer"
+						>
+							GitHub
+						</a>
 					</Flex>
 				</Box>
 			</Box>
