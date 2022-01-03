@@ -1,0 +1,40 @@
+@import "colors.scss";
+
+.contact {
+	min-height: 100vh;
+	background: $secondary;
+
+	.contact-title {
+		color: $primary;
+		font-family: "Source Sans 3", sans-serif;
+		font-weight: lighter;
+		font-size: 2em;
+		padding-top: 80px;
+		margin-bottom: 60px;
+	}
+
+	.contact-form {
+		input,
+		textarea {
+			background: #fff;
+			border-radius: 0;
+			border: none;
+			margin-bottom: 20px;
+		}
+
+		textarea {
+			height: 280px;
+			resize: none;
+			overflow: scroll;
+		}
+
+		button {
+			background: $primary;
+			color: #fff;
+			border-radius: 0;
+			width: 100%;
+			font-family: "Source Sans 3", sans-serif;
+			font-weight: lighter;
+		}
+	}
+}
