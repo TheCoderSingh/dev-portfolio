@@ -1,0 +1,13 @@
+@import "colors.scss";
+
+.footer {
+	background: $primary;
+	padding: 3px 0;
+
+	p {
+		font-size: 0.8em;
+		color: #fff;
+		font-family: "Source Sans 3", sans-serif;
+		text-align: center;
+	}
+}
