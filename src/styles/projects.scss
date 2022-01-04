@@ -60,3 +60,59 @@
 		text-align: center;
 	}
 }
+
+@media only screen and (max-width: 768px) {
+	.projects-1-col {
+		display: block;
+	}
+
+	.projects-2-cols {
+		display: none !important;
+	}
+
+	.projects-3-cols {
+		display: none !important;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+	.projects-1-col {
+		display: none;
+	}
+
+	.projects-2-cols {
+		.project {
+			width: 300px;
+		}
+
+		.project-technologies {
+			align-items: center;
+		}
+	}
+
+	.projects-3-cols {
+		display: none !important;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.projects-1-col {
+		display: none;
+	}
+
+	.projects-2-cols {
+		display: none !important;
+	}
+
+	.projects-3-cols {
+		display: flex;
+
+		.project {
+			width: 400px;
+		}
+
+		.project-technologies {
+			align-items: center;
+		}
+	}
+}

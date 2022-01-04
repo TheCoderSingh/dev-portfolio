@@ -55,7 +55,7 @@ const Home = () => {
 						</Box>
 					</Flex>
 					<hr />
-					<Flex className="intro-section">
+					<Flex className="intro-section" justifyContent={"right"}>
 						<Box
 							className="intro-section-content"
 							textAlign={"right"}
