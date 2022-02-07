@@ -1,4 +1,6 @@
 import { Box, Flex, Heading, Image, Link, Text } from "@chakra-ui/react";
+import { GiCoffeeCup } from "react-icons/gi";
+import { FaCode } from "react-icons/fa";
 
 import "../styles/home.scss";
 import coffee from "../assets/coffee2.png";
@@ -43,7 +45,7 @@ const Home = () => {
 							.
 						</Text>
 					</Box>
-					<Box className="intro-sections intro-sections-mobile">
+					{/* <Box className="intro-sections intro-sections-mobile">
 						<Flex className="intro-section">
 							<Box className="intro-section-image">
 								<Image src={coffee} alt="coffee mug" />
@@ -99,10 +101,7 @@ const Home = () => {
 								<Link href="#">View my projects</Link>
 							</Box>
 						</Flex>
-					</Flex>
-					{/* <Box className="intro-scroll">
-						<Image src={scroll} alt="scroll down arrow" />
-					</Box> */}
+					</Flex> */}
 				</Box>
 				<Box className="intro-desktop">
 					<Box className="intro-text">
@@ -161,8 +160,53 @@ const Home = () => {
 						</Flex>
 					</Flex>
 				</Box>
-				<Box className="intro-scroll">
+				{/* <Box className="intro-scroll">
 					<Image src={scroll} alt="scroll down arrow" />
+				</Box> */}
+			</Box>
+			<Box mt={"20px"}>
+				<Box bgColor={"#2c4251"} height={"100px"} width={"100%"}>
+					<Flex alignItems={"center"} height={"100%"} marginLeft={15}>
+						<Box paddingLeft={"10px"}>
+							<GiCoffeeCup color="#fff" fontSize={42} />
+						</Box>
+						<Box paddingLeft={"10px"}>
+							<Text
+								color={"#FFF"}
+								fontFamily="'Source Sans 3'"
+								fontSize={"20px"}
+							>
+								Let's grab a coffee!
+							</Text>
+							<Text color={"#FFF"} fontFamily="'Source Sans 3'">
+								Shoot me an email at <br />
+								<Link href="mailto:thecodersingh@gmail.com">
+									thecodersingh@gmail.com
+								</Link>
+							</Text>
+						</Box>
+					</Flex>
+				</Box>
+				<Box bgColor={"#d16666"} height={"100px"} width={"100%"}>
+					<Flex alignItems={"center"} height={"100%"} marginLeft={15}>
+						<Box paddingLeft={"10px"}>
+							<FaCode color="#fff" fontSize={42} />
+						</Box>
+						<Box paddingLeft={"10px"}>
+							<Text
+								color={"#FFF"}
+								fontFamily="'Source Sans 3'"
+								fontSize={"20px"}
+							>
+								Wanna skip to the good part?
+							</Text>
+							<Text color={"#FFF"} fontFamily="'Source Sans 3'">
+								<Link href="mailto:thecodersingh@gmail.com">
+									View my projects
+								</Link>
+							</Text>
+						</Box>
+					</Flex>
 				</Box>
 			</Box>
 		</Box>
