@@ -12,9 +12,7 @@ import Footer from "./components/Footer";
 function App() {
 	return (
 		<Box className="App">
-			<Box className="inner">
-				<Menu />
-			</Box>
+			<Menu />
 			<Home />
 			<Projects />
 			<About />

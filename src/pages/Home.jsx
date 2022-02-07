@@ -209,6 +209,9 @@ const Home = () => {
 					</Flex>
 				</Box>
 			</Box>
+			<Box className="intro-scroll">
+				<Image src={scroll} alt="scroll down arrow" />
+			</Box>
 		</Box>
 	);
 };
