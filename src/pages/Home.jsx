@@ -1,7 +1,7 @@
 import { Box, Flex, Heading, Image, Link, Text } from "@chakra-ui/react";
 
 import "../styles/home.scss";
-import coffee from "../assets/coffee.png";
+import coffee from "../assets/coffee2.png";
 import projects from "../assets/projects.png";
 import facebook from "../assets/facebook.png";
 import instagram from "../assets/instagram.png";
@@ -24,13 +24,14 @@ const Home = () => {
 						</Flex>
 					</Box>
 					<Box className="intro-description">
-						<Text>
-							I'm a <span>software developer</span>, based in
-							Vancouver, BC with a vision to revolutionize the
-							world through code.
+						<Text textAlign={"justify"}>
+							I am a <span>software developer</span>, based in
+							Vancouver, Canada. I love building applications and
+							hope to revolutionize the world with code. When I'm
+							not coding, I'm probably skating.
 						</Text>
-						<Text>
-							Currently looking for opportunities. View my resume
+						<Text textAlign={"justify"}>
+							If you are looking to hire, you can view my resume
 							<a
 								href="https://drive.google.com/file/d/1XpmxqBWO8oeApiSrrJnHCb9fDzx35ElL/view?usp=sharing"
 								target={"_blank"}
